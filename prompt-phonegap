@@ -5,3 +5,6 @@ $ phonegap create myApp --id "org.myapp.sample" --name "appSample" --template ph
 $ phonegap push --deviceID APA91bE1MmeTc92igNoi5OkDWUV --service apns --payload "{ \"aps\": { \"alert\": \"Hello World\" } }”
 
 $ phonegap push --deviceID APA91bE1MmeTc92igNoi5OkDWUV --service fcm --payload "{ \"data\": { \"title\": \"Hello\", \"message\": \"World\"} }"
+
+
+npm install -g phonegap@latest
